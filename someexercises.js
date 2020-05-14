@@ -24,9 +24,9 @@ function hello() {
       }
 }
 
-function reverseloop(){
-    for (var i = 0; i < 10; i++) {
-        console.log(9-i)
+function reverseloop(y){
+    for (var i = 0; i < y; i++) {
+        console.log((y-1)-i)
     }
 }
 
@@ -39,7 +39,7 @@ console.log(3+"3") // 33
 console.log(string) // esrever ni nettirw ma I ekam sihT
 console.log(asynchrony()) // one three two( two will be always after other console logs because its in WEB API, then in message queue)
 console.log(hello()) // hello
-console.log(reverseloop()) // 9 8 7 6 5 4 3 2 1
+console.log(reverseloop(10)) // 9 8 7 6 5 4 3 2 1 0
 
 /* Some curio in JS */
 
