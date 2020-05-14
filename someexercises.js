@@ -2,11 +2,14 @@
 
 const sum = (a) => (b) => a + b
 const sum2 = (a, b) => a + b
+
 Array.prototype.duplicate = function() {
     return this.concat(this)
 }
+
 var string = 'This make I am written in reverse'
 .split('').reverse().join('');
+
 function asynchrony() {
     console.log('one');
     setTimeout(function() {
