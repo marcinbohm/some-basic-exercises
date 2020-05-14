@@ -1,3 +1,3 @@
 # some-basic-exercises
 
-Basic exercises with javascript - run with console
+Basic exercises with javascript - run it on terminal
